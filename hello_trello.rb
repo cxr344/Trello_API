@@ -15,7 +15,6 @@ OAuthPolicy.token = OAuthCredential.new access_token_key, nil
 me = Member.find("me")
 puts me.full_name
 puts me.username
-puts me.bio
 
 #board = Board.create(:name => "ruby_trello_test")
 #if board.has_lists?
